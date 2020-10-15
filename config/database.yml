@@ -32,9 +32,9 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: <%= Rails.application.credentials.db[:database] %>
+  database: sample_app
   pool: 5
-  username: <%= Rails.application.credentials.db[:username] %>
-  password: <%= Rails.application.credentials.db[:password] %>
+  username: root
+  password: Pa,h#yqYu6%w
   host: localhost
-  socket: <%= Rails.application.credentials.db[:socket] %>
+  socket: /var/lib/mysql/mysql.sock
