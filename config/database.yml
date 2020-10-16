@@ -11,7 +11,7 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: sample_mysql_development
+  database: sample_app
   pool: 5
   username: root
   password:
